@@ -1,0 +1,318 @@
+/* Background */
+body {
+  background-color: #FFFFFF; /* White background color */
+  color: #000000; /* Black text color */
+}
+
+a {
+  cursor: pointer;
+}
+
+/* Navigation Bar */
+.Navbar {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF; /* White background color */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navigation Bar LOGO */
+.Navbar-logo {
+  width: 120px;
+  height: 100%;
+  background-color: #FFFFFF; /* White background color */
+}
+
+.Navbar-logo img {
+  height: 70px;
+  align-self: center;
+  margin-left: 120px;
+}
+
+/* Navigation Bar CONTENT */
+.Navbar-nav {
+  width: fit-content;
+  height: 100%;
+  background-color: #FFFFFF; /* White background color */
+}
+
+.Navbar-nav ul li {
+  display: inline;
+  float: left;
+}
+
+.Navbar-nav ul li a {
+  padding: 10px 10px;
+  line-height: 60px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #000000; /* Black text color */
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+/* Style for the Search button */
+.button1 {
+  background-color: #4414a5;
+  color: #fff;
+  border: 50px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+  border-radius: 5px; /* Optional: Add border radius for a rounded button */
+}
+
+/* Hover effect for the button */
+.button1:hover {
+  background-color: #0b9fc4;
+}
+
+/* BODY */
+/* Reset some default styles */
+
+
+/* Style for the main header */
+.main {
+  display: inline;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF; /* White background color */
+  color: #000000; /* Black text color */
+  padding: 10px 20px; /* Adjust the padding as needed */
+}
+
+/* Style for the header image */
+.main img {
+  width: 100%; /* Adjust the width as needed */
+  height: 100%; /* Maintain aspect ratio */
+}
+
+/* Style for the header navigation */
+.main a {
+  text-decoration: none;
+  color: white; /* Black text color */
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 600px; /* Adjust the spacing between the image and text */
+}
+
+/* Style for the navigation link */
+.main li {
+  list-style: none;
+}
+
+.info {
+  width: 100%;
+  height: 1000px;
+  background-color: #ffffff;
+}
+
+.text h5 {
+  margin-top: 60px;
+  color: #000000;
+  text-align: center;
+}
+
+.text h1 {
+  margin-top: 30px;
+  color: rgb(0, 0, 0); /* Black text color */
+  font-size: xx-large;
+  text-align: center;
+}
+
+.text h4 {
+  margin-top: 20px;
+  color: rgb(0, 0, 0); /* Black text color */
+  text-align: center;
+}
+
+/* .text a button {
+  color: #000000;
+  background-color: #23A6F0;
+  margin-top: 10px;
+  border-radius: 2px;
+  width: 100px;
+  text-align: center;
+  align-self: center;
+}
+
+.btn1 {
+  color: #000000;
+  background-color: #23A6F0;
+  margin-left: 530px;
+  margin-top: 10px;
+  border-radius: 2px;
+  width: 100px;
+  text-align: center;
+  align-self: center;
+} */
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 500px;
+}
+
+/* Customize the first button */
+.button-one {
+  color: #00488c; /* White text color */
+  background-color: #23A6F0;
+  margin-left: 530px;
+  margin-top: 10px;
+  border-radius: 2px;
+  width: 100px;
+  text-align: center;
+  align-self: center;
+}
+
+.info {
+  background-color: #ffffff;
+}
+
+/* Customize the second button */
+.button-two {
+  color: #1136bc; /* Black text color */
+  background-color: #ffffff; /* White background color */
+  border-color: #ffffff; /* Black border color */
+  border-style: groove;
+  margin-left: 600px;
+  margin-top: 10px;
+  border-radius: 2px;
+  width: 100px;
+  text-align: center;
+  align-self: center;
+}
+
+.card {
+  display: inline-block;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 80px;
+}
+
+/* Customize the first card */
+.card-one {
+  background-color: #f0f0f0;
+}
+
+/* Customize the second card */
+.card-two {
+  background-color: #f9f9f9;
+}
+
+.card-two img {
+  height: 200px;
+  width: 300px;
+}
+
+.card-three img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Customize the third card */
+.card-three {
+  background-color: #fafafa;
+}
+
+.line hr {
+  width: 20px;
+  color: rgb(125, 23, 23);
+  height: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #ffffff; /* White background color */
+  display: flex;
+  justify-content: space-between;
+}
+
+.get {
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  width: 230px;
+  margin-left: 80px;
+}
+
+.get h3 {
+  font-style: normal;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
+  height: 30px;
+}
+
+.get img {
+  margin-top: 10px;
+  height: 30px;
+  align-self: center;
+}
+
+.company {
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  width: 230px;
+  margin-right: 50px;
+}
+
+.company h3 {
+  font-style: normal;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
+  height: 30px;
+}
+
+.company ul li a {
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+}
+
+.features {
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  width: 230px;
+  margin-right: 100px;
+}
+
+.features h3 {
+  font-style: normal;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
+  height: 30px;
+}
+
+.features ul li a {
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+}
+
+.resources {
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  width: 80px;
+  margin-right: 100px;
+}
+
+.resources h3 {
+  font-style: normal;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
+  height: 30px;
+}
+
+.resources ul li a {
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+}
